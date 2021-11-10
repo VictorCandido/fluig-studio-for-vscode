@@ -7,17 +7,17 @@ export class DatasetController {
     private url: string;
 
     constructor() { 
-        this.url = 'https://devfluig.iv2.com.br/webdesk/ECMDatasetService?wsdl';
+        this.url = '';
     }
 
     public async listAll() {
         try {
             const server: IServer = {
-                description: 'Dev Iv2',
-                host: 'https://devfluig.iv2.com.br',
+                description: '',
+                host: '',
                 port: 443,
-                user: 'victor.candido',
-                password: 'totvs@iv2',
+                user: '',
+                password: '',
                 companyId: 1
             }
 
@@ -37,11 +37,11 @@ export class DatasetController {
             console.log(content);
 
             const server: IServer = {
-                description: 'Dev Iv2',
-                host: 'https://devfluig.iv2.com.br',
+                description: '',
+                host: '',
                 port: 443,
-                user: 'victor.candido',
-                password: 'totvs@iv2',
+                user: '',
+                password: '',
                 companyId: 1
             }
 
